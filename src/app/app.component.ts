@@ -1,4 +1,8 @@
-import { Component } from '@angular/core';
+import { Component, NgModule } from '@angular/core';
+import { CadastrarComponent } from './cadastrar/cadastrar.component';
+import { EntrarComponent } from './entrar/entrar.component';
+import { MenuComponent } from './menu/menu.component';
+import { RodapeComponent } from './rodape/rodape.component';
 
 @Component({
   selector: 'app-root',
@@ -8,3 +12,9 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'blogPessoalFront';
 }
+
+
+
+
+
+
