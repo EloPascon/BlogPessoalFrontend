@@ -1,1 +1,61 @@
-<p>inicio works!</p>
+<div class="container-fluid">
+  <div class="row bg-secondary d-flex align-items-center ">
+    <div class="col-md-6">
+      <div class="row d-flex justify-content-center">
+        <div class="col-md-6 text-white">
+          <h1 class="fs-54">Seja Bem vindo(a)</h1>
+          <h5 class="fs-18"> expresse aqui os seus pensamentos e opiniões!</h5>
+          <div class="row d-flex justify-content-center mt-3 mb-5">
+            <div class="col-md-6">
+              <button class="btn btn-light mr-2" class="modal-dialog modal-dialog-centered ">Nova Postagem</button>
+              <a class="btn btn-outline-light" href="#postagens">Ver Postagem</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="col-md-6 d-flex justify-content-center">
+      <img src="../../assets/img/Software integration-amico (1).png" alt="" width="500px" height="500px">
+    </div>
+  </div>
+
+</div>
+
+<div class="container mb-5 mt-5" id="postagens">
+  <div class="nav d-flex justify-content-center">
+    <ul class="nav nav-tabs" id="myTab" role="tablist">
+      <li class="nav-item" role="presentation">
+        <a class="nav-link active text-info" id="todasPostagens-tab" data-toggle="tab" href="#todasPostagens" role="tab"
+          aria-controls="todasPostagens" aria-selected="true">Todas as Postagens</a>
+      </li>
+      <li class="nav-item" role="presentation">
+        <a class="nav-link text-info" id="minhasPostagens-tab" data-toggle="tab" href="#minhasPostagens" role="tab"
+          aria-controls="minhasPostagens" aria-selected="false">Minhas postagens</a>
+      </li>
+      <li class="nav-item" role="presentation">
+        <a class="nav-link text-info" id="postagensPorTema-tab" data-toggle="tab" href="#postagensPorTema" role="tab"
+          aria-controls="postagensPorTema" aria-selected="false">Postagens por tema</a>
+      </li>
+    </ul>
+    <div class="tab-content" id="myTabContent">
+      <div class="tab-pane fade show active" id="todasPostagens" role="tabpanel" aria-labelledby="todasPostagens-tab">
+        Todas as Postagens</div>
+      <div class="tab-pane fade" id="minhasPostagens" role="tabpanel" aria-labelledby="minhasPostagens-tab">Minhas postagens</div>
+      <div class="tab-pane fade" id="postagensPorTema" role="tabpanel" aria-labelledby="postagensPorTema-tab">Postagens por tema</div>
+    </div>
+  </div>
+</div>
+
+
+
+<!-- Vertically centered modal -->
+<div class="modal-dialog modal-dialog-centered">
+  ...
+</div>
+
+<!-- Vertically centered scrollable modal -->
+<div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+  ...
+</div>

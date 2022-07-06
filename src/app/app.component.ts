@@ -3,6 +3,7 @@ import { CadastrarComponent } from './cadastrar/cadastrar.component';
 import { EntrarComponent } from './entrar/entrar.component';
 import { MenuComponent } from './menu/menu.component';
 import { RodapeComponent } from './rodape/rodape.component';
+import { AuthService } from './service/auth.service';
 
 @Component({
   selector: 'app-root',
@@ -10,7 +11,12 @@ import { RodapeComponent } from './rodape/rodape.component';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'blogPessoalFront';
+
+  constructor(
+    public auth : AuthService
+
+  ){}
+
 }
 
 
